@@ -1,0 +1,18 @@
+#root{
+  font-family: 'Inter';
+}
+
+body {
+  margin: 0;
+  background-color: var(--background_color);
+  color: var(--color_black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+  margin: 0;
+}
+

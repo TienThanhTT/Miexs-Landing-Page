@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5rem;
+    padding: 80px 60px;
+}
+
+.header img{
+    width: 127.9px;
+    height: 25.1px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    width: 474px;
+    height: 22px;
+    color: var(--color_black);
+}
+.navbar li{
+    list-style-type: none;
+    margin: 0 1.5rem;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+button{
+    width: 115px;
+    height: 44px;
+    background-color: #3b52ff;
+    border-radius: 29px;
+    color: #ffffff;
+    border: 0;
+}
