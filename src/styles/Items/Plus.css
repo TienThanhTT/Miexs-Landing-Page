@@ -1,0 +1,14 @@
+.ver{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.hor{
+    max-width: 20px;
+    max-height: 20px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}

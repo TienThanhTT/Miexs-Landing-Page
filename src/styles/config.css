@@ -1,0 +1,14 @@
+.button{
+    font-size: 18px;
+    font-weight: 500;
+    background-color: var(--color_blue);
+    border-radius: 29px;
+    color: #ffffff;
+    border: 0;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48.41px;
+}

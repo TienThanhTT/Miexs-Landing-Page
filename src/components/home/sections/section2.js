@@ -1,15 +1,17 @@
 import React from "react";
 import '../../../styles/component/section2.css';
-import section2Icon from '../../../assets/icon/section2/section2Icon.svg'
+import '../../../styles/colors.css';
+import '../../../styles/config.css';
+import section2Icon from '../../../assets/icon/section2Icon.svg'
 
-class section2 extends React.Component{
+class Section2 extends React.Component{
     render() {
         return (
             <div className="section2_wrapper">
                 <div className="section2">
                     <div className="section2_left">
-                        <div className="section2-left_title">
-                            <h4>Join the Ecosystem</h4>
+                        <div className="title section2-left_title">
+                            Join the Ecosystem
                         </div>
                         <div className="section2-left_content">
                             <p>
@@ -76,4 +78,4 @@ class section2 extends React.Component{
     }
 }
 
-export default section2;
+export default Section2;

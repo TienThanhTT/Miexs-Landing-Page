@@ -1,0 +1,42 @@
+.section10_wrapper{
+    padding: 0 20%;
+    margin-bottom: 150px;
+}
+
+.section10_head{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.section10-head_button{
+    width: 188px;
+    height: 60px;
+}
+
+.section10_card{
+    width: 358px;
+
+}
+
+.section10-card_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section10-card_subtitle{
+    color: var(--color_green);
+}
+
+.section10-card_title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.section10-card_content{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}

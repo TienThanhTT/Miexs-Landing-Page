@@ -1,0 +1,31 @@
+.section8_wrapper{
+    height: 614px;
+    background-color: var(--color_black);
+    padding: 0 20%;
+    margin-bottom: 150px;
+}
+
+.section8{
+    color: #ffffff;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section8-left_ListContent>p{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.section8-left_button{
+    width: 430px;
+    height: 60px;
+}
+
+.section8_right{
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+}

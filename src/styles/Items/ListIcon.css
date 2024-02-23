@@ -1,0 +1,8 @@
+.ListIcon{
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 15px;
+    background-color: var(--color_blue);
+}

@@ -1,6 +1,8 @@
 import React from "react";
 import '../../styles/component/navbar.css'
-import Logo from '../../assets/icon//navbar/Logo.svg'
+import '../../styles/config.css';
+import '../../styles/colors.css';
+import Logo from '../../assets/icon/Logo.svg'
 
 class navbar extends React.Component{
     render() {
@@ -15,7 +17,7 @@ class navbar extends React.Component{
                     <li>Tools</li>
                 </div>
 
-                <button>Build on MIEXS</button>
+                <button className="header_button button">Build on MIEXS</button>
                 
             </header>
         );

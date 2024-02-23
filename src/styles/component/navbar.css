@@ -28,11 +28,8 @@
 }
 
 
-button{
-    width: 115px;
+.header_button{
+    width: 155px;
     height: 44px;
-    background-color: #3b52ff;
-    border-radius: 29px;
-    color: #ffffff;
-    border: 0;
+    font-size: 16px !important;
 }

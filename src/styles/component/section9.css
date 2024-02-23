@@ -1,0 +1,31 @@
+.section9_wrapper{
+    padding: 0 20%;
+    margin-bottom: 150px;
+}
+
+.section9{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section9-left_title{
+    margin-bottom: 50px;
+}
+
+.section9-left_content{
+    font-size: 17px;
+    font-weight: 400;
+    width: 548px;
+    height: 78px;
+}
+
+.section9_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sectionn9_right img{
+    padding: 10px;
+}
