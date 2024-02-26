@@ -1,35 +1,34 @@
 .header{
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    min-height: 5rem;
-    padding: 80px 60px;
+    padding: 5rem 4rem;
 }
 
 .header img{
-    width: 127.9px;
-    height: 25.1px;
+    width: 8rem;
+    height: 2rem;
 }
 
 .navbar{
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    width: 474px;
-    height: 22px;
+    height: 2.2rem;
     color: var(--color_black);
 }
 .navbar li{
     list-style-type: none;
     margin: 0 1.5rem;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.8rem;
 }
 
 
 .header_button{
-    width: 155px;
-    height: 44px;
-    font-size: 16px !important;
+    max-width: 15.5rem;
+    height: 4.4rem;
+    font-size: 1.6rem !important;
 }

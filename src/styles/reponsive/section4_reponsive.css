@@ -1,0 +1,42 @@
+@media screen and (max-width: 390px) {
+    .section4{
+        flex-direction: column;
+    }
+
+    .section4_card{
+        max-width: 100%;
+        margin-bottom: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section4-card_img,
+    .section4-card_title,
+    .section4-card_content  {
+        text-align: center;
+    }
+
+    .section4-card_title{
+        font-size: 1rem;
+        line-height: 2rem;
+    }
+    .section4-card_content{
+        font-size: 1.2rem;
+        line-height: 3rem;
+        margin-top: 0;
+    }
+
+    .section4-card_start{
+        width: 100%;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .section4-card_start img{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    
+}

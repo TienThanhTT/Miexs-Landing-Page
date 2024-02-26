@@ -1,5 +1,6 @@
 import React from "react";
 import "../../../styles/component/section10.css";
+import "../../../styles/reponsive/section10_reponsive.css";
 import "../../../styles/config.css";
 import "../../../styles/colors.css";
 import ArrowIcon from "../../Items/ArrowIcon";
@@ -12,7 +13,7 @@ import Minus from "../../Items/Minus";
 class Section10 extends React.Component {
   render() {
     return (
-      <div className="section10_wrapper">
+      <div className="section10_wrapper wrapper">
         <div className="section10">
           <div className="section10_head">
             <div className="title">Latest News</div>
@@ -29,7 +30,6 @@ class Section10 extends React.Component {
               </div>
               <div className="section10-card_subtitle">
                 <p>Developers</p>
-                <Minus />
               </div>
               <div className="section10-card_title">
                 <p>Miexs Partners with Web3 Wallet Tweed</p>

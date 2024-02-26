@@ -1,14 +1,6 @@
-.ver{
-    position: absolute;
-    top: 0;
-    display: flex;
-    justify-content: center;
-}
 
-.hor{
-    max-width: 20px;
-    max-height: 20px;
-    position: relative;
-    display: flex;
-    justify-content: center;
+.plus{
+    width: 2rem;
+    height: 2rem;
+    font-size: 3rem;
 }

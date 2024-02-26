@@ -1,5 +1,6 @@
 import React from "react";
 import "../../../styles/component/section11.css";
+import "../../../styles/reponsive/section11_reponsive.css";
 import "../../../styles/config.css";
 import Minus from "../../Items/Minus";
 import Plus from "../../Items/Plus";
@@ -9,7 +10,7 @@ import Line from "../../Items/Line";
 class Section11 extends React.Component {
   render() {
     return (
-      <div className="section11_wrapper">
+      <div className="section11_wrapper wrapper">
         <div className="section11">
           <div className="section11_left">
             <div className="title section11-left_title">
@@ -34,7 +35,7 @@ class Section11 extends React.Component {
               <Line />
               <div className="section11-right_title">
                 <p>How is Fuse different from other blockchains?</p>
-                <Plus />
+                <Minus />
               </div>
               <div className="section11-right_content">
                 Miexs strives to provide the absolute best minting experience

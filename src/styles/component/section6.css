@@ -1,40 +1,43 @@
 .section6_wrapper{
     position: relative;
     width: 100%;
-    margin: 0 0 150px;
+    margin: 0 0 15rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-bottom: 15rem;
+}
+
+.section6_wrapper>img{
+    width: 100%;
 }
 
 .section6{
     position: absolute;
-    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+
 }
 
 .section6_subtitle{
-    width: 120px;
-    height: 24px;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
 }
 
-
 .section6_content{
-    width: 674px;
-    height: 71px;
-    font-size: 17px;
+    font-size: 1.7rem;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 3.6rem;
     text-align: center;
-    padding: 50px 0;
+    padding: 5rem 0;
 }
 
 .section6_button{
-    width: 208px;
-    height: 60px;
-    border-radius: 31px;
+    padding: 2rem 6rem;
+    border-radius: 3rem;
 }
+
+

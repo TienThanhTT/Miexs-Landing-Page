@@ -1,5 +1,6 @@
 import React from "react";
 import "../../../styles/component/section1.css";
+import "../../../styles/reponsive/section1_reponsive.css";
 import "../../../styles/config.css";
 import Small_BackgroundMask from "../../../assets/icon/Small_BackgroundMask.svg";
 import Icon1 from "../../../assets/icon/Section1_DownIcon1.svg";

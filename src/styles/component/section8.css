@@ -1,8 +1,8 @@
 .section8_wrapper{
-    height: 614px;
+    height: 61.4rem;
     background-color: var(--color_black);
-    padding: 0 20%;
-    margin-bottom: 150px;
+    padding: 0 15%;
+    margin-bottom: 15rem;
 }
 
 .section8{
@@ -13,6 +13,10 @@
     justify-content: space-between;
 }
 
+.section8_left img{
+    max-width: 100%;
+}
+
 .section8-left_ListContent>p{
     display: flex;
     flex-direction: row;
@@ -20,12 +24,15 @@
 }
 
 .section8-left_button{
-    width: 430px;
-    height: 60px;
+    padding: 1.5rem 3rem;
 }
 
 .section8_right{
     display: flex;
     height: 100%;
     align-items: flex-end;
+}
+
+.section8_right>img{
+    width: 100%;
 }

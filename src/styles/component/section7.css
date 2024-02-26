@@ -1,7 +1,4 @@
-.section7_wrapper{
-    padding: 0 20%;
-    margin-bottom: 150px;
-}
+
 
 .section7{
     display: flex;
@@ -9,17 +6,19 @@
     justify-content: space-between;
 }
 
+.section7_left{
+    max-width: 30%;
+}
+
 .section7-left_title{
-    padding: 20px 0;
+    padding: 2rem 0;
 }
 
 .section7-left_content{
-    width: 370px;
-    height: 180px;
-    font-size: 17px;
+    font-size: 1.7rem;
     font-size: 400;
-    line-height: 36px;
-    padding: 20px 0;
+    line-height: 3.6rem;
+    padding: 2rem 0;
 }
 
 .section7-left_button{
@@ -28,44 +27,49 @@
 }
 
 .section7-left_BlueButton{
-    width: 215px;
-    height: 60px;
-    margin: 10px 0;
+    max-width: 50%;
+    padding: 2rem 0;
+    margin: 1rem 0;
 }
 
 .section7-left_BlackButton{
-    width: 251px;
-    height: 60px;
     background-color: #000000;
     color: #ffffff;
-    margin: 10px 0;
+    margin: 1rem 0;
+    max-width: 60%;
+    padding: 2rem 0;
+}
+
+.section7-right_wrapper{
+    max-width: 40%;
 }
 
 .section7_right{
-    margin-bottom: 100px;
+    
+    margin-bottom: 10rem;
 }
 
 .section7-right_title{
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 700;
-    margin: 40px 0;
+    margin: 4rem 0;
 }
 
 .section7-right_content{
-    width: 670px;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
-    line-height: 30px;
-    margin: 30px 0;
+    line-height: 3rem;
+    margin: 3rem 0;
 }
 
 .section7-right_arrowContent{
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 600;
-    margin: 20px 0;
+    margin: 2rem 0;
 }
 
 .section7-right_arrowContent>img{
     margin-left: 0;
-    margin-right: 20px;
+    margin-right: 2rem;
 }
+

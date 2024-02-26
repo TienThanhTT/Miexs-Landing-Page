@@ -1,7 +1,4 @@
-.section11_wrapper{
-    padding: 0 20%;
-    margin-bottom: 150px;
-}
+
 
 .section11{
     display: flex;
@@ -10,44 +7,41 @@
 }
 
 .section11_left{
-    width: 270px;
+    width: 20%;
 }
 
 .section11-left_title{
-    padding: 20px 0;
-
+    padding: 2rem 0;
 }
 
 .section11-left_content{
-    
-    font-size: 17px;
+    font-size: 1.7rem;
     font-size: 400;
-    line-height: 36px;
-    padding: 20px 0;
+    line-height: 3.6rem;
+    padding: 2rem 0;
 }
 
 .section11-left_button{
-    width: 215px;
-    height: 60px;
-    margin: 10px 0;
+    padding: 2rem;
+    margin: 1rem 0;
 }
 
-.section11-right_wrapper{
-    width: 770px;
+.section11_right_wrapper{
+    width: 60%;
 }
 
 .section11-right_title{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 700;
-    padding: 20px 0;
+    padding: 2rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .section11-right_content{
-    width: 700px;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
-    padding:0 0 40px 0;
+    padding:0 0 4rem 0;
 }
+

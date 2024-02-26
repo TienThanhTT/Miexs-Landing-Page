@@ -5,14 +5,7 @@ import Horizontal from "../../assets/icon/horizontal_icon.svg";
 
 class Plus extends React.Component {
   render() {
-    return (
-      <div className="hor">
-        <img src={Horizontal} alt="" />;
-        <div className="ver">
-          <img src={Vertical} alt="" />;
-        </div>
-      </div>
-    );
+    return <div className="plus">+</div>;
   }
 }
 

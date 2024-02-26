@@ -1,5 +1,6 @@
 import React from "react";
 import "../../../styles/component/section8.css";
+import "../../../styles/reponsive/section8_reponsive.css";
 import "../../../styles/config.css";
 import Img from "../../../assets/images/section8_img.svg";
 import Icon from "../../../assets/icon/section8Icon.svg";
@@ -8,7 +9,7 @@ import ListIcon from "../../Items/ListIcon";
 class Section8 extends React.Component {
   render() {
     return (
-      <div className="section8_wrapper">
+      <div className="section8_wrapper wrapper">
         <div className="section8">
           <div className="section8_left">
             <p className="section8-left_head">Ecosystem spotlight</p>

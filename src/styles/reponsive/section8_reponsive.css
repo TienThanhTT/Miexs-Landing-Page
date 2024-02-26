@@ -1,0 +1,36 @@
+@media screen and (max-width: 390px) {
+    .section8_wrapper{
+        height: 50rem !important;
+        margin-bottom: 10rem;
+    }
+    .section8{
+        flex-direction: column-reverse;
+    }
+    .section8_left{
+        height: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .section8_wrapper{
+        height: 35rem;
+    }
+    .section8{
+        gap: 2rem;
+    }
+    .section8_left>img{
+        max-width: 100%;
+    }
+    .section8-left_button{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .section8_right{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    
+}

@@ -1,22 +1,21 @@
-.section10_wrapper{
-    padding: 0 20%;
-    margin-bottom: 150px;
-}
 
 .section10_head{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 80px;
+    margin-bottom: 8rem;
 }
 
 .section10-head_button{
-    width: 188px;
-    height: 60px;
+    padding: 2rem;
 }
 
 .section10_card{
-    width: 358px;
+    width: 33.33%;
+    padding: 2rem;
+}
 
+.section10-card_img img{
+    width: 100%;
 }
 
 .section10-card_wrapper{
@@ -32,11 +31,11 @@
 .section10-card_title{
     font-size: 24px;
     font-weight: 700;
-    line-height: 36px;
+    line-height: 3.6rem;
 }
 
 .section10-card_content{
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 3rem;
 }
