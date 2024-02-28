@@ -1,0 +1,9 @@
+
+
+.active{
+    color: var(--color_blue);
+    font-weight: 600 !important;
+    box-shadow: 1 var(--color_blue) 0.3rem;
+    height: 100%;
+    border-bottom: 3px solid var(--color_blue);
+}

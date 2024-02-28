@@ -1,0 +1,58 @@
+.SKsection1_wrapper{
+    padding: 0 15%;
+    margin-bottom: 5rem;
+    padding-top: 14rem;
+}
+
+.SKsection1_about{
+    margin-bottom: 5rem;
+}
+
+
+.beta_button{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    background-color: #FFADCB;
+    color: #A13375;
+    border-radius: 2rem;    
+    margin-left: 2rem;
+}
+
+.SKsection1_total{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-wrap: nowrap;
+}
+
+.SKsection1-total_totalbox{
+    border: 0.1rem solid var(--border_color);
+    border-radius: 1.2rem;
+    width: 20%;
+    padding: 2rem;
+    
+}
+
+.SKsection1-total-totalbox_title{
+    font-size: 1.4rem;
+    font-weight: 200;
+    line-height: 1.7rem;
+    color: #5F709A;
+    padding: 0.5rem;
+}
+
+.SKsection1-total-totalbox_amount{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+    padding: 0.5rem;
+}
+
+.SKsection1-total-totalbox_Evalue{
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #5F709A;
+    padding: 0.5rem;
+}

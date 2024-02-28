@@ -1,0 +1,117 @@
+@media screen and (max-width: 390px) {
+    .card_img{
+        padding: 0.5rem;
+    }
+    
+    .card_title{
+        font-size: 13px;
+    }
+    
+    .card_val{
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    
+    .card_content{
+        padding: 5px;
+    }
+    
+    .card-content_name{
+        font-size: 1rem;
+    }
+    
+    .card-content_value{
+        font-size: 10px;
+    }
+
+    .SKsection2_blackbutton{
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .SKsection2_active{
+        font-size: 10px;
+    }
+    
+    .SKsection2_blackbutton{
+        font-size: 10px;
+        padding: 0.5rem;
+    }
+
+    .SKsection2_wrapper{
+        padding: 0 10%;
+        margin-bottom: 7rem;
+    }
+
+    .Sksection2_search{
+        margin-bottom: 5rem;
+    }
+
+    .Sksection2-search_left input{
+        padding: 1rem;
+        width: 40%;
+    }
+
+    .Sksection2-search_left label{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .Sksection2-search_right{
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .Sksection2-search-right_title{
+        font-size: 10px;
+    }
+    
+    
+    .Sksection2-search-right_wrap li{
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .Sksection2-product-card-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Sksection2-product_card{
+        width: 70% !important;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+    .Sksection2_search{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .Sksection2-search_left{
+        width: 100%;
+        padding: 1rem;
+        justify-content: center;
+    }
+
+    .Sksection2-search_right{
+        width: 100%;
+        justify-content: center;
+        padding: 1rem
+    }
+
+    .Sksection2-product-card_sectiondown{
+        display: none;
+    }
+    
+    .Sksection2-product-card-wrapper{
+        flex-wrap: wrap;
+    }
+
+    .Sksection2-product_card{
+        width: 40%;
+        padding: 2rem 1rem;
+    }
+}

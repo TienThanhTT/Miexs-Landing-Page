@@ -1,0 +1,45 @@
+@media screen and (max-width: 390px) {
+    .consolefooter{
+        padding: 3rem 0;
+    }
+    
+    .consolefooter-left_icon img{
+        max-width: 7rem !important;
+    }
+
+    .consolefooter-left_text{
+        font-size: 7px !important;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+    .consolefooter_wrapper{
+        padding: 0 10%;
+        background-color: #000000;
+    }
+    
+    .consolefooter-left_text{
+        gap: 1rem;
+        font-size: 10px;
+    }
+
+    .consolefooter-left_icon img{
+        max-width: 10rem;
+    }
+
+    .consolefooter_right{
+        flex-wrap: wrap;
+    }
+
+    .consolefooter_right img{
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+
+
+}

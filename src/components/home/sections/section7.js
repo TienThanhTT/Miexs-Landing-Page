@@ -1,7 +1,7 @@
 import React from "react";
 import "../../../styles/config.css";
 import "../../../styles/component/section7.css";
-import "../../../styles/reponsive/section7_reponsive.css";
+import "../../../styles/reponsive/home/section7_reponsive.css";
 import ArrowIcon from "../../Items/ArrowIcon";
 import BlackArrowIcon from "../../Items/BlackArrowIcon";
 

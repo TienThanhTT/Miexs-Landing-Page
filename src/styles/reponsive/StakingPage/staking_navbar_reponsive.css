@@ -1,0 +1,21 @@
+@media screen and (max-width: 390px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    .navbar{
+        display: none;
+    }
+
+    .header_button{
+        display: none;
+    }
+
+    .console_logo{
+        width: 40% !important;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+
+}

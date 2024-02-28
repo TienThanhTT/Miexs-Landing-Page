@@ -5,6 +5,7 @@
     height: 110rem;
     text-align: center;
     position: relative;
+    padding-top: 14rem;
 }
 
 .section1_wrapper>img {
@@ -29,6 +30,7 @@
     margin: auto;
     position: absolute;
     top: 12rem;
+    z-index: 998;
 }
 
 .section1Up_title{

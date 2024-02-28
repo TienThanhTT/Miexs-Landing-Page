@@ -1,14 +1,12 @@
 import React from "react";
 import "../../../styles/component/section10.css";
-import "../../../styles/reponsive/section10_reponsive.css";
+import "../../../styles/reponsive/home/section10_reponsive.css";
 import "../../../styles/config.css";
 import "../../../styles/colors.css";
 import ArrowIcon from "../../Items/ArrowIcon";
 import Img1 from "../../../assets/images/section10_img1.svg";
 import Img2 from "../../../assets/images/section10_img2.svg";
 import Img3 from "../../../assets/images/section10_img3.svg";
-import Plus from "../../Items/Plus";
-import Minus from "../../Items/Minus";
 
 class Section10 extends React.Component {
   render() {

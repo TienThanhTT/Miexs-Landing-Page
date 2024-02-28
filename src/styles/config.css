@@ -13,6 +13,12 @@
     line-height: 4.84rem;
 }
 
+.content{
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+}
+
 .wrapper{
     width: 70%;
     margin-left: auto;

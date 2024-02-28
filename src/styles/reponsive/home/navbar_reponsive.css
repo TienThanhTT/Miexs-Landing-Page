@@ -11,6 +11,11 @@
     .navbar{
         display: none;
     }
+
+    .header_button{
+        display: none;
+    }
+
     .navbar li{
         font-size: 1.5rem;
     }

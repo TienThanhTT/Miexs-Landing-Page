@@ -1,6 +1,6 @@
 import React from "react";
 import "../../../styles/component/section4.css";
-import "../../../styles/reponsive/section4_reponsive.css";
+import "../../../styles/reponsive/home/section4_reponsive.css";
 import "../../../styles/colors.css";
 import Avatar1 from "../../../assets/images/Section4_Avatar1.svg";
 import Avatar2 from "../../../assets/images/Section4_Avatar2.svg";

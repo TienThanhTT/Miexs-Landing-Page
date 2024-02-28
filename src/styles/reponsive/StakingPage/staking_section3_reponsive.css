@@ -1,0 +1,48 @@
+@media  screen and (max-width: 390px) {
+    .title{
+        font-size: 1.5rem !important;
+        line-height: 2rem !important;
+    }
+
+    .Sksection3-right-title_text{
+        font-size: 10px !important;
+        padding: 0.5rem !important;
+    }
+
+
+    .Sksection3-right_content{
+        font-size: 8px !important;
+        margin-left: 2rem !important;
+    }
+
+    .Sksection3-right-title_icon{
+        width: 7% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+
+    .Sksection3-right-title_text{
+        font-size: 14px;
+        padding: 1rem;
+    }
+
+    .Sksection3-right-title_icon{
+        width: 5%;
+    }
+
+    .Sksection3-right_content{
+        font-size: 12px;
+        margin-left: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+    
+    
+}

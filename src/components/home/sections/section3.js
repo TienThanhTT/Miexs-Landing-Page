@@ -1,6 +1,6 @@
 import React from "react";
 import "../../../styles/component/section3.css";
-import "../../../styles/reponsive/section3_reponsive.css";
+import "../../../styles/reponsive/home/section3_reponsive.css";
 import "../../../styles/colors.css";
 import "../../../styles/config.css";
 import ArrowIcon from "../../Items/ArrowIcon";

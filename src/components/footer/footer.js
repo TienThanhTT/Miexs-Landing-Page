@@ -11,6 +11,7 @@ import GithubIcon from "../Items/Github_icon";
 import GlobelIcon from "../Items/Globel_icon";
 import InstagramIcon from "../Items/Instagram_icon";
 import YoutubeIcon from "../Items/Youtube_icon";
+import TwitterIcon from "../Items/Twitter_icon";
 class Footer extends React.Component {
   render() {
     return (
@@ -19,6 +20,7 @@ class Footer extends React.Component {
           <Logo />
           <div className="footer_icon">
             <FacebookIcon />
+            <TwitterIcon />
             <SnapchatIcon />
             <RedditIcon />
             <DiscordIcon />

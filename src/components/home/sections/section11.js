@@ -1,6 +1,6 @@
 import React from "react";
 import "../../../styles/component/section11.css";
-import "../../../styles/reponsive/section11_reponsive.css";
+import "../../../styles/reponsive/home/section11_reponsive.css";
 import "../../../styles/config.css";
 import Minus from "../../Items/Minus";
 import Plus from "../../Items/Plus";

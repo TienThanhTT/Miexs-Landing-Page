@@ -2,7 +2,7 @@ import React from "react";
 import "../../../styles/component/section2.css";
 import "../../../styles/colors.css";
 import "../../../styles/config.css";
-import "../../../styles/reponsive/section2_reponsive.css";
+import "../../../styles/reponsive/home/section2_reponsive.css";
 import section2Icon from "../../../assets/icon/section2Icon.svg";
 
 class Section2 extends React.Component {

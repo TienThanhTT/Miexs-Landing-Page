@@ -1,6 +1,6 @@
 import React from "react";
 import "../../../styles/component/section5.css";
-import "../../../styles/reponsive/section5_reponsive.css";
+import "../../../styles/reponsive/home/section5_reponsive.css";
 import "../../../styles/config.css";
 import Section5Icon from "../../../assets/icon/section5Icon.svg";
 import PhoneIcon1 from "../../../assets/icon/PhoneIcon1.svg";

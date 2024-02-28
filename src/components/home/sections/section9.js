@@ -1,6 +1,6 @@
 import React from "react";
 import "../../../styles/component/section9.css";
-import "../../../styles/reponsive/section9_reponsive.css";
+import "../../../styles/reponsive/home/section9_reponsive.css";
 import "../../../styles/config.css";
 import icon1 from "../../../assets/icon/section9_icon1.svg";
 import icon2 from "../../../assets/icon/section9_icon2.svg";
