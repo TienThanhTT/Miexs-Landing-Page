@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../styles/component/section2.css";
+import "../../../styles/component/HomePage/section2.css";
 import "../../../styles/colors.css";
 import "../../../styles/config.css";
 import "../../../styles/reponsive/home/section2_reponsive.css";

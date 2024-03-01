@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/component/navbar.css";
+import "../../styles/component/HomePage/navbar.css";
 import "../../styles/config.css";
 import "../../styles/colors.css";
 import "../../styles/reponsive/home/navbar_reponsive.css";

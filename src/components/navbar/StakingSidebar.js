@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../../styles/component/sidebar.css";
+import "../../styles/component/HomePage/sidebar.css";
 import Icon from "../../assets/icon/sidebar_icon.svg";
 import ExitIcon from "../../assets/icon/exit_icon.svg";
 

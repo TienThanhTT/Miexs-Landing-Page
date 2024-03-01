@@ -6,6 +6,7 @@ import Icon from "../../Items/StakingIcon/ExclamationMark";
 import Line from "../../Items/StakingIcon/StakingLine";
 import CardImg from "../../Items/StakingIcon/CardImg";
 import ArrowDown from "../../Items/StakingIcon/ArrowDown";
+import { Outlet, Link } from "react-router-dom";
 
 class StakingSection2 extends React.Component {
   render() {
@@ -88,6 +89,7 @@ class StakingSection2 extends React.Component {
                 <li className="SKsection2_active">All</li>
                 <li>Open</li>
                 <li>Closed</li>
+                <Outlet />
               </div>
             </div>
           </div>
@@ -111,7 +113,9 @@ class StakingSection2 extends React.Component {
                     </div>
                   ))}
                   <div className="card_button_wrapper">
-                    <button className="card_button">Open</button>
+                    <Link to="/stake_view">
+                      <button className="card_button">Open</button>
+                    </Link>
                     <button className="card_button">Active</button>
                   </div>
                 </div>

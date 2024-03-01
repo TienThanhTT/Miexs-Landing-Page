@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../../assets/Staking_Icon/logo.svg";
 import StakingSidebar from "./StakingSidebar";
 import "../../styles/colors.css";
-import "../../styles/component/navbar.css";
+import "../../styles/component/HomePage/navbar.css";
 import "../../styles/reponsive/StakingPage/staking_navbar_reponsive.css";
 import "../../styles/component/StakingPage/staking_navbar.css";
 

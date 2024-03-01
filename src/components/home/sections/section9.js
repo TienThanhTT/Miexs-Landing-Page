@@ -1,5 +1,5 @@
 import React from "react";
-import "../../../styles/component/section9.css";
+import "../../../styles/component/HomePage/section9.css";
 import "../../../styles/reponsive/home/section9_reponsive.css";
 import "../../../styles/config.css";
 import icon1 from "../../../assets/icon/section9_icon1.svg";
