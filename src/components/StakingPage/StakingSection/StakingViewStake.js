@@ -35,7 +35,7 @@ class StakingViewStake extends React.Component {
             <div className="viewpage-left_header">
               <div className="viewpage-left-header_title">
                 <div className="viewpage-left-header_img">
-                  <img alt="product_img" src={CardImg} />
+                  <CardImg />
                 </div>
                 <div className="viewpage-left-header_text title">
                   FiberBlock.io

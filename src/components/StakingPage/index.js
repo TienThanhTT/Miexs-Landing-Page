@@ -2,7 +2,7 @@ import React from "react";
 import StakingSection1 from "./StakingSection/StakingSection1";
 import StakingSection2 from "./StakingSection/StakingSection2";
 import StakingSection3 from "./StakingSection/StakingSection3";
-import StakingViewUnstake from "./StakingSection/StakingViewUnstake";
+
 import StakingViewStake from "./StakingSection/StakingViewStake";
 import { Route, Routes } from "react-router-dom";
 
@@ -20,8 +20,7 @@ class StackingPage extends React.Component {
               </>
             }
           ></Route>
-          <Route path="stake_view" element={<StakingViewStake />} />
-          <Route path="unstake_view" element={<StakingViewUnstake />} />
+          <Route path="staking_view_detail" element={<StakingViewStake />} />
         </Routes>
 
         <StakingSection3 />

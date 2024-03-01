@@ -26,7 +26,7 @@
     gap: 1rem;
     padding: 2rem;
 }
-.stakeview_header a{
+.stakeview_header span{
     width: 20%;
     font-size: 15px;
     font-weight: 500;
