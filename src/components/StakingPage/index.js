@@ -10,10 +10,16 @@ class StackingPage extends React.Component {
   render() {
     return (
       <>
-        <StakingSection1 />
-
         <Routes>
-          <Route path="/" element={<StakingSection2 />}></Route>
+          <Route
+            path="/"
+            element={
+              <>
+                <StakingSection1 />
+                <StakingSection2 />
+              </>
+            }
+          ></Route>
           <Route path="stake_view" element={<StakingViewStake />} />
           <Route path="unstake_view" element={<StakingViewUnstake />} />
         </Routes>

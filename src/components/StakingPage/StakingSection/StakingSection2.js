@@ -135,7 +135,9 @@ class StakingSection2 extends React.Component {
                     </div>
                   ))}
                   <div className="card_button_wrapper">
-                    <button className="card_button">Open</button>
+                    <Link to="/stake_view">
+                      <button className="card_button">Open</button>
+                    </Link>
                     <button className="card_button">Active</button>
                   </div>
                 </div>
