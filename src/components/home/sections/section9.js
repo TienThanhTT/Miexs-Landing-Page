@@ -1,38 +1,43 @@
 import React from "react";
-import "../../../styles/component/HomePage/section9.css";
-import "../../../styles/reponsive/home/section9_reponsive.css";
-import "../../../styles/config.css";
-import icon1 from "../../../assets/icon/section9_icon1.svg";
-import icon2 from "../../../assets/icon/section9_icon2.svg";
-import icon3 from "../../../assets/icon/section9_icon3.svg";
-import icon4 from "../../../assets/icon/section9_icon4.svg";
-import icon5 from "../../../assets/icon/section9_icon5.svg";
-import icon6 from "../../../assets/icon/section9_icon6.svg";
+import Ramp from "../../../assets/images/section9/Ramp-logo.png";
+import Transak from "../../../assets/images/section9/Transak-logo.png";
+import Transfi from "../../../assets/images/section9/TransFi-logo.png";
+import Paybis from "../../../assets/images/section9/Paybis-logo.png";
+import Assetus from "../../../assets/images/section9/Assetux-logo.png";
+import Layerswap from "../../../assets/images/section9/Layerswap-logo.png";
 
 class Section9 extends React.Component {
   render() {
     return (
-      <div className="section9_wrapper wrapper">
-        <div className="section9">
-          <div className="section9_left">
-            <div className="section9-left_title title">
+      <div className="container">
+        <div className="grid grid-cols-12 py-[50px] gap-y-8  lg:py-[150px]">
+          <div className="col-span-12 flex flex-col gap-8 lg:max-w-[548px] lg:col-span-6">
+            <p className="font-bold text-[30px] lg:text-[40px]">
               On/Off Ramp Providers
-            </div>
-            <div className="section9-left_content">
+            </p>
+            <div className="font-normal txt-[17px] ">
               Miexs is partnering with On and Off-Ramp providers to allow for
               seamless payments with Fiat in 180+ countries.
             </div>
           </div>
-          <div className="sectionn9_right">
-            <div className="section9-right_icon">
-              <img src={icon1} alt="" />
-              <img src={icon2} alt="" />
-              <img src={icon3} alt="" />
+          <div className="col-span-12 grid grid-cols-3 gap-6 lg:col-span-6">
+            <div className="">
+              <img alt="" src={Ramp} />
             </div>
-            <div className="section9-right_icon">
-              <img src={icon4} alt="" />
-              <img src={icon5} alt="" />
-              <img src={icon6} alt="" />
+            <div>
+              <img alt="" src={Transak} />
+            </div>
+            <div>
+              <img alt="" src={Transfi} />
+            </div>
+            <div>
+              <img alt="" src={Paybis} />
+            </div>
+            <div>
+              <img alt="" src={Assetus} />
+            </div>
+            <div>
+              <img alt="" src={Layerswap} />
             </div>
           </div>
         </div>

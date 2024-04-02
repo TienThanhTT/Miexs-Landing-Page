@@ -1,21 +1,18 @@
 import React from "react";
-import "../../../styles/component/HomePage/section3.css";
-import "../../../styles/reponsive/home/section3_reponsive.css";
-import "../../../styles/colors.css";
-import "../../../styles/config.css";
-import ArrowIcon from "../../Items/ArrowIcon";
-import BlackArrowIcon from "../../Items/BlackArrowIcon";
-import ListIcon from "../../Items/ListIcon";
+import ListIcon from "../../../assets/icon/list-icon.png";
 
-class Section3 extends React.Component {
+import arrow_black from "../../../assets/icon/arrow_black-icon.png";
+import Button from "../../Items/button";
+
+class section3 extends React.Component {
   render() {
     return (
-      <div className="section3_wrapper wrapper">
-        <div className="section3">
-          <div className="section3_left">
-            <div className="section3-left_text">
-              <div className="title">Powered by Operators</div>
-              <p>
+      <div className="container">
+        <div className=" grid grid-cols-12 gap-y-4 py-[50px] lg:gap-12 lg:py-[170px] items-center">
+          <div className=" col-span-12 lg:col-span-6 px-[10%] gap-8 flex flex-col items-center justify-center lg:items-start lg:max-w-[552px] lg:px-[0] ">
+            <div className="flex flex-col gap-8 text-center items-center lg:items-start">
+              <p className="font-bold text-[40px] ">Powered by Operators</p>
+              <p className=" font-normal text-[17px] leading-[36px] text-[#0B1223] text-center lg:text-start ">
                 Operators are real-world business applications, games, or dApps,
                 that wish to receive payments at a low cost easily and quickly.
                 The Operator adds gas fees and submits the transaction to the
@@ -24,60 +21,57 @@ class Section3 extends React.Component {
               </p>
             </div>
 
-            <div className="section3-left_button">
-              <button className="section3Button button">
-                Become an Operator
-                <ArrowIcon />
-              </button>
-              <div className="section3Link">
+            <div className=" flex flex-col gap-4 justify-between ">
+              <Button
+                content="Become an Operator"
+                isArrow={true}
+                width="max-w-[269px]"
+                background="bg-primary"
+                link="#"
+              />
+              <div className="font-medium text-lg rounded-full px-6 py-3 flex items-center gap-4 ">
                 What are Operators?
-                <BlackArrowIcon />
+                <img alt="" src={arrow_black} />
               </div>
             </div>
           </div>
 
-          <div className="section3_right">
-            <div className="section3_Line">
-              <div className="section3_UnLoadingPart">
-                <div className="section3_LoadingPart"></div>
+          <div className=" col-span-12 lg:col-span-6 flex gap-8 justify-center ">
+            <div className="max-h-[444px] rounded-full">
+              <div className="relative w-[8px] bg-[#F1F1F1] h-[444px] rounded-full ">
+                <div className=" absolute bg-primary w-[8px] h-[50%] rounded-full bottom-0 "></div>
               </div>
             </div>
 
-            <div className="section3-right-content_wrapper">
-              <div className="section3-right_content">
-                <div className="section3-right-content_title">
-                  <span>03</span>
-                  <h3>E-Money</h3>
-                </div>
-                <div className="section3-right-content_text"></div>
+            <div className="flex flex-col gap-12 justify-between lg:gap-12">
+              <div className="flex flex-col gap-2 text-lg">
+                <p className="font-normal text-[#898DA0] ">01</p>
+                <p className=" font-semibold text-[#0B1223] ">E-Money</p>
               </div>
 
-              <div className="section3-right_content">
-                <div className="section3-right-content_title">
-                  <span>03</span>
-                  <h3>E-Money</h3>
-                </div>
-                <div className="section3-right-content_text"></div>
+              <div className="flex flex-col gap-2 text-lg">
+                <p className="font-normal text-[#898DA0] ">02</p>
+                <p className=" font-semibold text-[#0B1223] ">Web3 Loyalty</p>
               </div>
 
-              <div className="section3-right_content">
-                <div className="section3-right-content_title">
-                  <span>03</span>
-                  <h3>E-Money</h3>
+              <div className="flex flex-col gap-2 text-lg">
+                <div className="flex flex-col gap-2 text-lg">
+                  <p className="font-normal text-[#5B6FFF] ">03</p>
+                  <p className=" font-semibold text-[#0B1223] ">NFT Projects</p>
                 </div>
-                <div className="section3-right-content_text">
-                  <p>
-                    <ListIcon />
-                    The lowest fees among EVM-compatible blockchains
-                  </p>
-                  <p>
-                    <ListIcon />
-                    Transferring NFTs easily
-                  </p>
-                  <p>
-                    <ListIcon />
-                    Mobile-centric tools
-                  </p>
+                <div className="flex flex-col gap-2">
+                  <div className=" flex items-center gap-2 ">
+                    <img alt="" src={ListIcon} className=" max-h-[8px]" />
+                    <p>The lowest fees among EVM-compatible blockchains</p>
+                  </div>
+                  <div className=" flex items-center gap-2 ">
+                    <img alt="" src={ListIcon} className=" max-h-[8px]" />
+                    <p>Transferring NFTs easily</p>
+                  </div>
+                  <div className=" flex items-center gap-2 ">
+                    <img alt="" src={ListIcon} className=" max-h-[8px]" />
+                    <p>Mobile-centric tools</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -88,4 +82,4 @@ class Section3 extends React.Component {
   }
 }
 
-export default Section3;
+export default section3;

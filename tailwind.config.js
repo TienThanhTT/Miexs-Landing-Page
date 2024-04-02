@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        section6: "url('/src/assets/images/section6/background.png')",
+      },
+      colors: {
+        primary: "#3B52FF",
+        text_black: "#0B1223",
+      },
+    },
     container: {
       center: true,
       padding: {
@@ -19,4 +27,3 @@ module.exports = {
   },
   plugins: [],
 };
-
