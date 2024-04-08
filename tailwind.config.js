@@ -4,6 +4,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+        section1Bg1: "url('/src/assets/images/section1/sm_background.png')",
+        section1Bg2: "url('/src/assets/images/section1/big_background.png')",
         section6: "url('/src/assets/images/section6/background.png')",
       },
       colors: {

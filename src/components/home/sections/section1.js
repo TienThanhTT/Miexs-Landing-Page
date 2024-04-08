@@ -6,9 +6,9 @@ import Img3 from "../../../assets/images/section1/wall-img.png";
 class section1 extends React.Component {
   render() {
     return (
-      <div className="py-[50px] lg:py-[170px]">
+      <div className="py-[50px] lg:py-[170px] bg-section1Bg2 bg-center bg-cover">
         <div className="container">
-          <div className="text-center max-w-[786px] mx-auto mb-[80px] lg:mb-[170px]">
+          <div className="text-center max-w-[786px] mx-auto mb-[80px] h-[587px] bg-section1Bg1 bg-center bg-cover flex flex-col items-center justify-center ">
             <div className="font-bold text-[35px] lg:text-[58px] mb-12">
               Blockchain Ecosystem for Business Payments
             </div>
