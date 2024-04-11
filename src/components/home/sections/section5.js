@@ -16,7 +16,7 @@ class Section5 extends React.Component {
               Success Stories
             </div>
 
-            <p className="text-[17px] font-normal text-[#0B1223] ">
+            <p className="text-[17px] font-normal text-[#0B1223] leading-[36px] ">
               The possibilities are endless with Miexs's payment solution
               ecosystem - join now and discoverhundreds of apps and services
               geared towards driving community and business success.

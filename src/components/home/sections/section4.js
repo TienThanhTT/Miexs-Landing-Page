@@ -15,7 +15,7 @@ class Section4 extends React.Component {
               <img alt="" src={Img1} className="max-w-[60px]" />
               <p className="font-bold text-[15px] text-center lg:text-start">
                 Kevin Heng <br />
-                <span className="font-normal">
+                <span className="font-normal text-[#484b5a]">
                   Chief Strategy Officerand Co-founder of Bitazza
                 </span>
               </p>
@@ -36,7 +36,9 @@ class Section4 extends React.Component {
               <img alt="" src={Img2} className="max-w-[60px]" />
               <p className="font-bold text-[15px] text-center lg:text-start">
                 Gabriel Saunyama <br />
-                <span className="font-normal">CEO &CO-Founder, Chromepay</span>
+                <span className="font-normal text-[#484b5a]">
+                  CEO &CO-Founder, Chromepay
+                </span>
               </p>
             </div>
 
@@ -55,7 +57,9 @@ class Section4 extends React.Component {
               <img alt="" src={Img3} className="max-w-[60px]" />
               <p className="font-bold text-[15px] text-center lg:text-start">
                 Leon Rossiter <br />
-                <span className="font-normal">CEO & CO-Founder, Peepl</span>
+                <span className="font-normal text-[#484b5a]">
+                  CEO & CO-Founder, Peepl
+                </span>
               </p>
             </div>
 

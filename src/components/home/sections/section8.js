@@ -11,7 +11,7 @@ class Section8 extends React.Component {
         <div className="container">
           <div className="grid grid-cols-12 pt-[15%] gap-y-16">
             <div className="col-span-12 text-white flex flex-col gap-10 items-center lg:items-start lg:col-span-5">
-              <div>
+              <div className="flex flex-col gap-4">
                 <p className=" text-lg font-normal">Ecosystem spotlight</p>
                 <div>
                   <img alt="" src={Icon} />

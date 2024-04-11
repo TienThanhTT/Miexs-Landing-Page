@@ -1,13 +1,16 @@
 import "./App.css";
-import Navbar from "../components/navbar/navbar";
-import Homepage from "../components/home/index";
-import Footer from "../components/footer/footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "../components";
+import ConsoleHomepage from "../components/console";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Homepage />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/console/*" element={<ConsoleHomepage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

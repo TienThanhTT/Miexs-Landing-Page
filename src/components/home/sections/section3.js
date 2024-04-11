@@ -8,8 +8,8 @@ class section3 extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className=" grid grid-cols-12 gap-y-4 py-[50px] lg:gap-12 lg:py-[170px] items-center">
-          <div className=" col-span-12 lg:col-span-6 px-[10%] gap-8 flex flex-col items-center justify-center lg:items-start lg:max-w-[552px] lg:px-[0] ">
+        <div className=" flex flex-col justify-between grid-cols-12 gap-y-4 py-[50px] lg:py-[170px] items-center lg:flex-row">
+          <div className="px-[10%] gap-8 flex flex-col items-center justify-center lg:items-start lg:max-w-[552px] lg:px-[0] ">
             <div className="flex flex-col gap-8 text-center items-center lg:items-start">
               <p className="font-bold text-[40px] ">Powered by Operators</p>
               <p className=" font-normal text-[17px] leading-[36px] text-[#0B1223] text-center lg:text-start ">
@@ -21,7 +21,7 @@ class section3 extends React.Component {
               </p>
             </div>
 
-            <div className=" flex flex-col gap-4 justify-between ">
+            <div className=" flex flex-col gap-4 justify-between lg:flex-row ">
               <Button
                 content="Become an Operator"
                 isArrow={true}
@@ -36,7 +36,7 @@ class section3 extends React.Component {
             </div>
           </div>
 
-          <div className=" col-span-12 lg:col-span-6 flex gap-8 justify-center ">
+          <div className="flex gap-8 justify-center ">
             <div className="max-h-[444px] rounded-full">
               <div className="relative w-[8px] bg-[#F1F1F1] h-[444px] rounded-full ">
                 <div className=" absolute bg-primary w-[8px] h-[50%] rounded-full bottom-0 "></div>
@@ -60,15 +60,15 @@ class section3 extends React.Component {
                   <p className=" font-semibold text-[#0B1223] ">NFT Projects</p>
                 </div>
                 <div className="flex flex-col gap-2">
-                  <div className=" flex items-center gap-2 ">
+                  <div className=" flex items-center gap-2 text-base font-normal ">
                     <img alt="" src={ListIcon} className=" max-h-[8px]" />
                     <p>The lowest fees among EVM-compatible blockchains</p>
                   </div>
-                  <div className=" flex items-center gap-2 ">
+                  <div className=" flex items-center gap-2 text-base font-normal ">
                     <img alt="" src={ListIcon} className=" max-h-[8px]" />
                     <p>Transferring NFTs easily</p>
                   </div>
-                  <div className=" flex items-center gap-2 ">
+                  <div className=" flex items-center gap-2 text-base font-normal ">
                     <img alt="" src={ListIcon} className=" max-h-[8px]" />
                     <p>Mobile-centric tools</p>
                   </div>

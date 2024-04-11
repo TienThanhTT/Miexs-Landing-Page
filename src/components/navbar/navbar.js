@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Logo from "../../assets/icon/navbar/Logo.svg";
 import { FaBars } from "react-icons/fa6";
 
@@ -37,7 +38,7 @@ class navbar extends React.Component {
           </div>
 
           <button className="bg-primary text-white px-5 py-3 rounded-[29px] lg:block">
-            Build on MIEXS
+            <Link to="/console">Build on MIEXS</Link>
           </button>
           <button
             className="absolute top-[42px] right-[15px] lg:hidden block"
