@@ -3,7 +3,6 @@ import exclamation from "../../../../../assets/console/icons/staking/exclamation
 import arrow from "../../../../../assets/console/icons/staking/arrow.png";
 import img from "../../../../../assets/console/images/staking/img.png";
 import Footer from "../../../footer/footer";
-import Stake from "./stake";
 
 import FAQ from "../../../item/FAQ";
 import Pill from "../../../item/pill";

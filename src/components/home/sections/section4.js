@@ -1,5 +1,4 @@
 import React from "react";
-import "../../../styles/colors.css";
 import Img1 from "../../../assets/images/section4/Kevin-img.png";
 import Img2 from "../../../assets/images/section4/Gabriel-img.png";
 import Img3 from "../../../assets/images/section4/Leon-img.png";

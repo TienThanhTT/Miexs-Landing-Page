@@ -1,5 +1,4 @@
 import React from "react";
-import "../../../styles/component/section2.css";
 import section2Icon from "../../../assets/icon/section2/section2Icon.svg";
 
 class section2 extends React.Component {
