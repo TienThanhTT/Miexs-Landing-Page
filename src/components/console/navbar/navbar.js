@@ -13,22 +13,18 @@ class Navbar extends React.Component {
   }
 
   openMenu = () => {
-    console.log(123);
     this.setState({ open: !this.state.open });
   };
 
   ChangeToConsole = () => {
     this.setState({ page: "console" });
-    console.log(this.state.page);
   };
 
   ChangeToBridge = () => {
     this.setState({ page: "bridge" });
-    console.log(this.state.page);
   };
   ChangeToStaking = () => {
     this.setState({ page: "staking" });
-    console.log(this.state.page);
   };
 
   render() {

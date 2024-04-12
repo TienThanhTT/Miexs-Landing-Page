@@ -219,6 +219,7 @@ const Staking = () => {
                         : "border border-[#E4E5EB]"
                     }
                     onClick={() => handleStateChange(value.id)}
+                    key={value.id}
                   />
                 );
               })}
